@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="card" id="card">
+            <div class="pokedex">
+                <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" alt="">
+            </div>
+
+            <div class="nombre" id="nombre">
+                <h1 id="h1">Pokemón</h1>
+            </div>
+
+            <div class="sprite" id="sprite">
+                <img id="img" src="https://pngimg.com/uploads/pokeball/pokeball_PNG22.png">
+            </div>
+
+            <div class="stats" id="stats">
+                <p class="pdv" id="pdv">Puntos de vida</p>
+                <p class="attack" id="attack">Ataque</p>
+                <p class="defense" id="defense">Defensa</p>
+                <p class="sp-attack" id="sp-attack">Ataque Especial</p>
+                <p class="sp-defense" id="sp-defense">Defensa Especial</p>
+                <p class="speed" id="speed">Velocidad</p>
+                <p class="weight" id="weight">Peso</p>
+                <p class="type" id="type">Tipo</p>
+            </div>
+
+            <form>
+                <p class="ingresa" id="ingresa">
+                    Ingresa un número entre 1 y 898
+                </p>
+                <input type="number" name="numero" class="numero" id="numero" min="1" max="898">
+                <button type="submit" id="buscar" class="buscar" value="Buscar">Buscar</button>
+            </form>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
